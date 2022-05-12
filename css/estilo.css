@@ -205,6 +205,14 @@ color: black;
     gap: 50px;
 
 }
+.seccionubicacion{
+    background-color: cadetblue;
+    padding: 2rem;
+}
+
+    
+    
+
 
 @media screen and (max-width: 1023px){
     .seccionfotos{
