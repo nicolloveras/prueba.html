@@ -1,0 +1,292 @@
+
+
+
+
+
+
+.header{
+    color: aliceblue;
+    background-color: brown;
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 50px;
+   
+    
+    
+
+    
+
+   
+    
+   
+    
+}
+
+.navegador{
+    color: black;
+    background-color: brown;
+    font-style:initial;
+    padding: 2rem;
+    font-weight: 600;
+    height: max-content;
+    border-top: 16px;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    margin-right: 100%;
+    
+    
+
+    
+}
+
+.seccion{
+    color: black;
+    background-color:beige;
+    padding: 4rem;
+    text-align: center;
+    
+  line-height: inherit;
+
+    font-size: 20px;
+    font-weight: 100;
+    
+    
+    
+}
+.seccion__dos{
+background-color: cornsilk;
+
+height: max-content;
+margin: top 0;
+border-top: 16px;
+font-size: 16px;
+width: 100%;
+display: grid;
+grid-template-columns: auto auto auto;
+align-content: center;
+
+}
+.gridsecciondos{
+    
+    justify-content: space-between;
+   height: 150px;
+   border: 2px black solid;
+   margin: 15px;
+   font-family: cursive;
+   text-align: center
+}
+
+.titulo{
+    text-align: center;
+    padding: 4rem;
+}
+
+
+
+.textoprimero{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+
+ .textosegundo{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-align: center;
+ }
+
+ .pie{
+     color: aliceblue;
+     background-color: black;
+     text-align: center;
+     
+     
+     
+     font-size: 16px;
+     padding: 2rem;
+     background-image: linear-gradient( to left, black, grey);
+     
+     
+     
+     
+    
+    
+ }
+
+ .lista{
+    padding-right: 16px;
+     text-align: right;
+     display: inline-block;
+color: black;
+     
+ }
+
+ 
+ 
+
+ .formulario{
+     width: 100%;
+     background-color: burlywood;
+     padding: 16px;
+    
+     text-align: center;
+     height: 400px;
+     font-size: 30px;
+    
+    
+ }
+
+ .fotos{
+     background-color: rgb(10, 93, 236);
+     
+     
+     
+     
+ }
+
+ .quesomos{
+     background-color: cadetblue;
+     padding: 16px;
+     width: 100%;
+     height: auto;
+     
+   
+    
+ }
+
+ .lugares{
+     background-color: darkseagreen;
+     padding: 16px;
+     height: auto;
+     width: 100%;
+    
+ }
+
+ .cursiva{
+    font-family: 'Square Peg', cursive;
+ }
+
+ .ubicacion{
+     background-color:burlywood;
+     padding: 16px;
+     width: 100%;
+    
+ }
+
+ .ubicacion{
+     background-color: cadetblue;
+ }
+
+
+.flex{
+    display: flex;
+    width: 100%;
+    
+    background-color: brown;
+    
+
+}
+
+.flex__hijo{
+    
+    list-style-type: none;
+    margin: auto;
+}
+
+.gridpadre{
+    display: grid;
+    background-color: rgb(163, 222, 232);
+    grid-template-columns: auto auto auto;
+    padding: 16px;
+    justify-content: space-between;
+    gap: 50px;
+
+}
+.seccionubicacion{
+    background-color: cadetblue;
+    padding: 2rem;
+}
+
+
+.formulario_registro{
+    width: 400px;
+    background-color: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    height: 450px;
+    border-radius: 4px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    box-shadow: 7px 13px 37px #000 ;
+    
+}
+.formulario_item{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 2px solid black;
+}
+.boton{
+    width: 100%;
+    background-color: rgb(22, 69, 157);
+    padding: 12px;
+}
+
+    
+    
+
+
+@media screen and (max-width: 1023px){
+    .seccionfotos{
+        display: none;
+
+        
+    }
+    .gridsecciondos{
+        width: 80%;
+        font-size: 70%;
+    }
+    .titulo{
+        font-size: 70%;
+    }
+    .seccion{
+        font-size: 90%;
+    }
+    .header{
+        font-size: 150%;
+    }
+} 
+
+@media screen and (max-width: 600px){
+    .seccionfotos{
+        display: none;
+    }
+    .gridsecciondos{
+        display: none;
+    }
+    .titulo{
+        display: none;
+        
+    }
+    .textoinicial{
+        font-size: 70%;
+    }
+    .pie{
+       height: 100vw;
+       
+      
+    }
+    .navegador{
+        font-size: 10px;
+    }
+    .textoinicial{
+        font-size: 90%;
+    }
+    
+    }
+    
+    
