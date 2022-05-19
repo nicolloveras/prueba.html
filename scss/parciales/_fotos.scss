@@ -1,0 +1,9 @@
+.gridpadre{
+    display: grid;
+    background-color: rgb(163, 222, 232);
+    grid-template-columns: auto auto auto;
+    padding: 16px;
+    justify-content: space-between;
+    gap: 50px;
+
+}
