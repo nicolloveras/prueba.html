@@ -129,11 +129,16 @@
   display: flex;
   width: 100%;
   background-color: brown;
+  padding: 16px;
 }
 
 .flex__hijo {
   list-style-type: none;
   margin: auto;
+}
+.flex__hijo:hover{
+  transform: scale(1.5);
+  transition: transform 2s;
 }
 
 .gridpadre {
@@ -180,6 +185,16 @@
   width: 100%;
   background-color: #16459d;
   padding: 12px;
+}
+.container-fluid{
+  background-color:whitesmoke;
+  height: 100%;
+  padding: 16px;
+  background-color: burlywood;
+  text-align: end;
+}
+.quiensomos{
+  padding: 16px;
 }
 
 @media screen and (max-width: 1023px) {
@@ -238,5 +253,8 @@
   .lugares{
     display: none;
   }
+  .parrafo__ubic{
+    display: none;
+}
 }
 /*# sourceMappingURL=estilo.css.map */

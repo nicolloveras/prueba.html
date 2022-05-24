@@ -1,6 +1,6 @@
 .header{
     color: aliceblue;
-    background-color: brown;
+    background-color: $color-principal;
     padding: 2rem;
     text-align: center;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
@@ -19,7 +19,7 @@
 
 .navegador{
     color: black;
-    background-color: brown;
+    background-color: $color-principal;
     font-style:initial;
     padding: 2rem;
     font-weight: 600;

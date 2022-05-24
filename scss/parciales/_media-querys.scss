@@ -1,0 +1,49 @@
+@media screen and (max-width: 1023px){
+    .seccionfotos{
+        display: none;
+
+        
+    }
+    .gridsecciondos{
+        width: 80%;
+        font-size: 70%;
+    }
+    .titulo{
+        font-size: 70%;
+    }
+    .seccion{
+        font-size: 90%;
+    }
+    .header{
+        font-size: 150%;
+    }
+} 
+
+@media screen and (max-width: 600px){
+    .seccionfotos{
+        display: none;
+    }
+    .gridsecciondos{
+        display: none;
+    }
+    .titulo{
+        display: none;
+        
+    }
+    .textoinicial{
+        font-size: 70%;
+    }
+    .pie{
+       height: 100vw;
+       
+      
+    }
+    .navegador{
+        font-size: 10px;
+    }
+    .textoinicial{
+        font-size: 90%;
+    }
+    
+    }
+    

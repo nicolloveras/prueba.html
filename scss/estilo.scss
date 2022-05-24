@@ -1,11 +1,14 @@
 
+
+@import "parciales/_variables.scss";
 @import "parciales/_header.scss";
-@import "parciales/footer";
-@import "parciales/index";
-@import "parciales/contacto";
-@import "parciales/fotos";
-@import "parciales/nuestrascabañas";
-@import "parciales/ubicacion";
+@import "parciales/_footer.scss";
+@import "parciales/_index.scss";
+@import "parciales/_contacto.scss";
+@import "parciales/_fotos.scss";
+@import "parciales/_nuestrascabañas.scss";
+@import "parciales/_ubicacion.scss";
+@import "parciales/_media-querys.scss";
 
 
 
