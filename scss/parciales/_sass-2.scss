@@ -1,0 +1,16 @@
+$vista: claro;
+$color: brown;
+
+@if $vista == oscuro{
+$color: black
+
+
+}
+@else if $vista == claro{
+    $color: white
+}
+.sass-2{
+    color: $color
+}
+
+

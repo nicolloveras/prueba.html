@@ -3,9 +3,10 @@
   background-color: brown;
   padding: 2rem;
   text-align: center;
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+ font-family: Helvetica;
   width: 100%;
   font-size: 50px;
+  text-decoration: underline;
 }
 
 .navegador {
@@ -196,6 +197,14 @@
 .quiensomos{
   padding: 16px;
 }
+.container{
+  background-color: cadetblue;
+ 
+}
+.itemcorreo:invalid{
+  background-color: red;
+}
+
 
 @media screen and (max-width: 1023px) {
   .seccionfotos {
