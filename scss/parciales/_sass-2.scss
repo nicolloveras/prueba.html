@@ -14,3 +14,41 @@ $color: black
 }
 
 
+$pais:(
+    uruguay: lightblue,
+    chile: red,
+    brasil: yellow,
+
+);
+@each $clave, $valor in $pais {
+    .btn-#{$clave} {
+        background-color: $valor;
+    }
+}
+.caja{
+    width: 100px;
+    height: 50px;
+    background-color: darkorchid;
+
+}
+
+.caja--ganador{
+    @extend .caja;
+    background-color: green;
+}
+
+.caja--perdedor{
+    @extend .caja;
+    background-color: red;
+}
+
+@mixin medidas ($whidt, $height){
+
+}
+.boton-small{
+@include medidas(16px, 16px )
+    }
+.boton-medio{
+    @include medidas(20px,20px )
+    
+}

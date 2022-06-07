@@ -1,12 +1,46 @@
+.sass-2 {
+  color: white;
+}
+
+.btn-uruguay {
+  background-color: lightblue;
+}
+
+.btn-chile {
+  background-color: red;
+}
+
+.btn-brasil {
+  background-color: yellow;
+}
+
+.caja, .caja--ganador, .caja--perdedor {
+  width: 100px;
+  height: 50px;
+  background-color: darkorchid;
+}
+
+.caja--ganador {
+  background-color: green;
+}
+
+.caja--perdedor {
+  background-color: red;
+}
+*{
+  padding: 0;
+  margin: 0;
+  
+}
+
 .header {
   color: aliceblue;
   background-color: brown;
   padding: 2rem;
   text-align: center;
- font-family: Helvetica;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 100%;
   font-size: 50px;
-  text-decoration: underline;
 }
 
 .navegador {
@@ -23,14 +57,13 @@
   margin-right: 100%;
 }
 
-.seccion {
-  color: black;
-  background-color: beige;
-  padding: 4rem;
+.pie {
+  color: aliceblue;
+  background-color: black;
   text-align: center;
-  line-height: inherit;
-  font-size: 20px;
-  font-weight: 100;
+  font-size: 16px;
+  padding: 2rem;
+  background-image: linear-gradient(to left, black, grey);
 }
 
 .seccion__dos {
@@ -54,108 +87,6 @@
   text-align: center;
 }
 
-.titulo {
-  text-align: center;
-  padding: 4rem;
-}
-
-.textoprimero {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-align: center;
-}
-
-.textosegundo {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: center;
-}
-
-.pie {
-  color: aliceblue;
-  background-color: black;
-  text-align: center;
-  font-size: 16px;
-  padding: 2rem;
-  background-image: linear-gradient(to left, black, grey);
-}
-
-.lista {
-  padding-right: 16px;
-  text-align: right;
-  display: inline-block;
-  color: black;
-}
-
-.formulario {
-  width: 100%;
-  background-color: burlywood;
-  padding: 16px;
-  text-align: center;
-  height: 400px;
-  font-size: 30px;
-}
-
-.fotos {
-  background-color: #0a5dec;
-}
-
-.quesomos {
-  background-color: cadetblue;
-  padding: 16px;
-  width: 100%;
-  height: auto;
-}
-
-.lugares {
-  background-color: darkseagreen;
-  padding: 16px;
-  height: auto;
-  width: 100%;
-}
-
-.cursiva {
-  font-family: 'Square Peg', cursive;
-}
-
-.ubicacion {
-  background-color: burlywood;
-  padding: 16px;
-  width: 100%;
-}
-
-.ubicacion {
-  background-color: cadetblue;
-}
-
-.flex {
-  display: flex;
-  width: 100%;
-  background-color: brown;
-  padding: 16px;
-}
-
-.flex__hijo {
-  list-style-type: none;
-  margin: auto;
-}
-.flex__hijo:hover{
-  transform: scale(1.5);
-  transition: transform 2s;
-}
-
-.gridpadre {
-  display: grid;
-  background-color: #a3dee8;
-  grid-template-columns: auto auto auto;
-  padding: 16px;
-  justify-content: space-between;
-  gap: 50px;
-}
-
-.seccionubicacion {
-  background-color: cadetblue;
-  padding: 2rem;
-}
-
 .formulario_registro {
   width: 400px;
   background-color: #24303c;
@@ -167,11 +98,6 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: white;
   box-shadow: 7px 13px 37px #000;
-  transform: translate(0, -60px);
-}
-.formulario_registro:hover{
-  transform: scale(1.2);
-  transition: transform 2s;
 }
 
 .formulario_item {
@@ -187,24 +113,38 @@
   background-color: #16459d;
   padding: 12px;
 }
-.container-fluid{
-  background-color:whitesmoke;
-  height: 100%;
+
+.gridpadre {
+  display: grid;
+  background-color: #a3dee8;
+  grid-template-columns: auto auto auto;
   padding: 16px;
-  background-color: burlywood;
-  text-align: end;
-}
-.quiensomos{
-  padding: 16px;
-}
-.container{
-  background-color: cadetblue;
- 
-}
-.itemcorreo:invalid{
-  background-color: red;
+  justify-content: space-between;
+  gap: 50px;
 }
 
+.flex {
+  display: flex;
+  width: 100%;
+  background-color: brown;
+}
+
+.flex__hijo {
+  list-style-type: none;
+  margin: auto;
+}
+
+.lugares {
+  background-color: darkseagreen;
+  padding: 16px;
+  height: auto;
+  width: 100%;
+}
+
+.seccionubicacion {
+  background-color: cadetblue;
+  padding: 2rem;
+}
 
 @media screen and (max-width: 1023px) {
   .seccionfotos {
@@ -222,12 +162,6 @@
   }
   .header {
     font-size: 150%;
-  }
-  .flex{
-    display: none;
-  }
-  .lugares{
-    display: none;
   }
 }
 
@@ -248,22 +182,10 @@
     height: 100vw;
   }
   .navegador {
-    font-size: 8px;
+    font-size: 10px;
   }
   .textoinicial {
     font-size: 90%;
   }
-  .formulario_registro{
-    width: 80%;
-  }
-  .flex{
-    display: none;
-  }
-  .lugares{
-    display: none;
-  }
-  .parrafo__ubic{
-    display: none;
-}
 }
 /*# sourceMappingURL=estilo.css.map */

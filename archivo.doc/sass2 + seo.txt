@@ -1,0 +1,13 @@
+buenas perdon por entregar con el link la vez anterior me habia acostumbrado a eso jaja
+
+SASS 2
+
+-Usé un if para el modo claro u oscuro de la pantalla
+- cree un mapa con su respectiva clave y valor para luego ir creando clases diferenciadas
+- cree una clase llamada "caja" para usar "@extend" y modificar ciertos aspectos parciales
+- utilice el mixin para crear dos botones con diferentes caracteristicas modificiando sus valor ya establecidos en la declaracion del mix
+
+SEO 
+
+- en seo agregue los meta description y keywords en todas las paginas
+- agregue al proyecto "sitemap"
