@@ -35,118 +35,7 @@
   box-sizing: border-box;
 }
 
-.header {
-  color: aliceblue;
-  background-color: brown;
-  padding: 2rem;
-  text-align: center;
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  width: 100%;
-  font-size: 50px;
-}
 
-.navegador {
-  color: black;
-  background-color: brown;
-  font-style: initial;
-  padding: 2rem;
-  font-weight: 600;
-  height: max-content;
-  border-top: 16px;
-  font-size: 20px;
-  width: 100%;
-  text-align: center;
-  margin-right: 100%;
-}
-
-.pie {
-  color: aliceblue;
-  background-color: black;
-  text-align: center;
-  font-size: 16px;
-  padding: 2rem;
-  background-image: linear-gradient(to left, black, grey);
-}
-
-.seccion__dos {
-  background-color: cornsilk;
-  height: max-content;
-  margin: top 0;
-  border-top: 16px;
-  font-size: 16px;
-  width: 100%;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  align-content: center;
-}
-
-.gridsecciondos {
-  justify-content: space-between;
-  height: 150px;
-  border: 2px black solid;
-  margin: 15px;
-  font-family: cursive;
-  text-align: center;
-}
-
-.formulario_registro {
-  width: 400px;
-  background-color: #24303c;
-  padding: 30px;
-  margin: auto;
-  margin-top: 100px;
-  height: 450px;
-  border-radius: 4px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: white;
-  box-shadow: 7px 13px 37px #000;
-}
-
-.formulario_item {
-  width: 100%;
-  padding: 10px;
-  border-radius: 4px;
-  margin-bottom: 16px;
-  border: 2px solid black;
-}
-
-.boton {
-  width: 100%;
-  background-color: #16459d;
-  padding: 12px;
-}
-
-.gridpadre {
-  display: grid;
-  background-color: #a3dee8;
-  grid-template-columns: auto auto auto;
-  padding: 16px;
-  justify-content: space-between;
-  gap: 50px;
-}
-
-.flex {
-  display: flex;
-  width: 100%;
-  background-color: brown;
-}
-
-.flex__hijo {
-  list-style-type: none;
-  margin: auto;
-}
-
-.lugares {
-  background-color: darkseagreen;
-  padding: 16px;
-  height: auto;
-  width: 100%;
-}
-
-.seccionubicacion {
-  background-color: cadetblue;
-  padding: 2rem;
-}
 
 .header {
   color: aliceblue;
@@ -336,6 +225,10 @@ transform: translate(0, 100px);
   margin-bottom: 16px;
   border: 2px solid black;
 }
+.nuestras__titulo{
+  font-family: italic;
+  color: chocolate;
+}
 
 .boton {
   width: 100%;
@@ -355,6 +248,45 @@ transform: translate(0, 100px);
 .container-fluid{
   text-align: center;
 }
+.gender__titulo{
+  text-align: center;
+}
+.gender{
+  background-color: whitesmoke;
+  color: black;
+  min-height: 300px;
+  padding: 16px;
+}
+.gender__contenedor{
+  max-width: 1200px;
+  margin: 30px;
+}
+.gender__flex{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  overflow: auto;
+}
+.gender__item{
+  background-color: burlywood;
+  width: 80%;
+  max-width: 500px;
+  height: 200px;
+  border-radius: 8px;
+  padding: 1rem;
+  flex-shrink: 0;
+}
+.whatsapp{
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  position: fixed;
+  display: block;
+  bottom: 1rem;
+  right: 1rem;
+}
+
 @media screen and (max-width: 1023px) {
   .seccionfotos {
     display: none;
