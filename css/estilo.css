@@ -68,14 +68,16 @@
   padding: 4rem;
   text-align: center;
   width: 100%;
-  height: 400px;
+  height: 700px;
  font-size: 20px;
  color: black;
+ background-image: url(../fotos/Nono.jpg);
+ 
   
 }
 .textoinicial{
-color: black;
-transform: translate(0, 100px);
+color:black;
+transform: translate(0, -15px);
 }
 .seccion__dos {
   background-color: cornsilk;
@@ -228,6 +230,7 @@ transform: translate(0, 100px);
 .nuestras__titulo{
   font-family: italic;
   color: chocolate;
+  transform: translate(0, -50px);
 }
 
 .boton {
