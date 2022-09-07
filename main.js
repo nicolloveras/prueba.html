@@ -137,7 +137,21 @@
 //     edad = prompt("ingrese su edad")
     
 // }
-
+ 
+Swal.fire({
+    title: '¿Eres mayor de edad?',
+    showDenyButton: true,
+    // showCancelButton: true,
+    confirmButtonText: 'Si',
+    denyButtonText: `No`,
+  }).then((result) => {
+    /* Read more about isConfirmed, isDenied below */
+    if (result.isConfirmed) {
+      Swal.fire('Puedes comprar!', '', 'success')
+    } else if (result.isDenied) {
+      Swal.fire('Sera mejor que pidas ayuda a un adulto', '', 'error')
+    }
+  })
 
 
 const productos = [
